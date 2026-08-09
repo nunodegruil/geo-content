@@ -78,7 +78,7 @@ function App() {
   });
 
   const [emailLogin, setEmailLogin] = useState("nuno@teste.com");
-  const [passwordLogin, setPasswordLogin] = useState("123456");
+  const [passwordLogin, setPasswordLogin] = useState("");
 
   const [coordenadasSelecionadas, setCoordenadasSelecionadas] =
     useState<CoordenadasSelecionadas | null>(null);
