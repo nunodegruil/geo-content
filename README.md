@@ -49,11 +49,11 @@ The project combines an interactive map-based interface with a REST API and a ge
 
 ```text
 geo-content/
-├── backend/      # REST API and backend logic
-├── frontend/     # React web application
-├── database/     # Database schema
-├── docs/         # Project documentation and tests
-└── README.md
+|-- backend/      # REST API and backend logic
+|-- frontend/     # React web application
+|-- database/     # Database schema
+|-- docs/         # Project documentation and tests
+`-- README.md
 ```
 
 ## Architecture
@@ -89,10 +89,6 @@ npm run dev
 ```
 
 Environment variables containing database credentials and authentication secrets are not included in the repository.
-
-## Screenshots
-
-Screenshots of the application will be added here.
 
 ## Academic Context
 
